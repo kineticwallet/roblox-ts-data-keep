@@ -1,4 +1,4 @@
-import type { Signal } from "../../lemon-signal/src/LemonSignal";
+import type { Signal } from "@rbxts/lemon-signal/dist/LemonSignal";
 import type Keep from "./Keep";
 import type { Wrapper } from "./Wrapper";
 
