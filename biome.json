@@ -1,0 +1,42 @@
+{
+	"$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
+	"files": {
+		"ignore": ["*.lua"],
+		"ignoreUnknown": true
+	},
+	"linter": {
+		"rules": {
+			"recommended": true,
+
+			"suspicious": {
+				"noShadowRestrictedNames": "warn",
+				"noEmptyInterface": "warn"
+			},
+
+			"style": {
+				"noNonNullAssertion": "warn",
+				"noInferrableTypes": "warn"
+			}
+		}
+	},
+	"formatter": {
+		"formatWithErrors": true,
+		"indentWidth": 4,
+		"lineEnding": "crlf",
+		"lineWidth": 120
+	},
+	"javascript": {
+		"parser": {
+			"unsafeParameterDecoratorsEnabled": true
+		},
+		"formatter": {
+			"bracketSameLine": true
+		}
+	},
+	"json": {
+		"parser": {
+			"allowComments": false,
+			"allowTrailingCommas": false
+		}
+	}
+}

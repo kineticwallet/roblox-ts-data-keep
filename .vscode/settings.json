@@ -1,0 +1,7 @@
+{
+	"typescript.tsdk": "node_modules/typescript/lib",
+	"editor.formatOnSave": true,
+	"[lua]": {
+		"editor.defaultFormatter": "JohnnyMorganz.stylua"
+	}
+}

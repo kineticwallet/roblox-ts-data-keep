@@ -1,0 +1,11 @@
+{
+	"recommendations": [
+		"roblox-ts.vscode-roblox-ts",
+		"biomejs.biome",
+		"EditorConfig.EditorConfig",
+		"roblox-ts.vscode-roblox-ts",
+		"JohnnyMorganz.stylua",
+		"filiptibell.tooling-language-server",
+		"pflannery.vscode-versionlens"
+	]
+}

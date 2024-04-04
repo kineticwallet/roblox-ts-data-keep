@@ -1,0 +1,26 @@
+{
+	"name": "@rbxts/roblox-ts-package-template",
+	"version": "1.0.0",
+	"main": "dist/init.lua",
+	"keywords": [],
+	"author": "kineticwallet",
+	"license": "MIT",
+	"types": "dist/index.d.ts",
+	"files": ["dist", "!**/*.tsbuildinfo"],
+	"publishConfig": {
+		"access": "public"
+	},
+	"packageManager": "pnpm@8.15.6+sha256.01c01eeb990e379b31ef19c03e9d06a14afa5250b82e81303f88721c99ff2e6f",
+	"devDependencies": {
+		"@biomejs/biome": "^1.6.4",
+		"@rbxts/compiler-types": "2.3.0-types.0",
+		"@rbxts/types": "^1.0.767",
+		"rbxts-transformer-private": "^1.0.1",
+		"rbxts-transformer-services": "^1.1.1",
+		"roblox-ts": "^2.3.0",
+		"typescript": "=5.2.2"
+	},
+	"dependencies": {
+		"@rbxts/services": "^1.5.4"
+	}
+}
