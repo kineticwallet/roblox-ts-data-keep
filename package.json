@@ -1,8 +1,8 @@
 {
-	"name": "@rbxts/roblox-ts-package-template",
-	"version": "1.0.0",
+	"name": "@rbxts/data-keep",
+	"version": "3.1.1-ts.0",
 	"main": "dist/init.lua",
-	"keywords": [],
+	"keywords": ["data", "DataKeep", "session", "lock", "ProfileService"],
 	"author": "kineticwallet",
 	"license": "MIT",
 	"types": "dist/index.d.ts",
@@ -21,6 +21,7 @@
 		"typescript": "=5.2.2"
 	},
 	"dependencies": {
+		"@rbxts/lemon-signal": "1.10.0-ts.1",
 		"@rbxts/services": "^1.5.4"
 	}
 }

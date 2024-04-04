@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  '@rbxts/lemon-signal':
+    specifier: 1.10.0-ts.1
+    version: 1.10.0-ts.1
   '@rbxts/services':
     specifier: ^1.5.4
     version: 1.5.4
@@ -125,6 +128,12 @@ packages:
   /@rbxts/compiler-types@2.3.0-types.0:
     resolution: {integrity: sha512-2kllUXLlK22OzSi3GmLT+/O70U9oB2iXp4rGFk5FLwc1pqf4W9EsInuJ0t7poLE2XnqnpW/ojff9CUNivI2+lw==}
     dev: true
+
+  /@rbxts/lemon-signal@1.10.0-ts.1:
+    resolution: {integrity: sha512-OLxuvzWnGph1avSy1hKm/BRtVEj5iJMlTx6yiHqUKE2NcZrQTkw4gp0PCsEdT4a0fXeOqKNOoUL+N2wVKb03Rw==}
+    dependencies:
+      '@rbxts/services': 1.5.4
+    dev: false
 
   /@rbxts/services@1.5.4:
     resolution: {integrity: sha512-Klh+gRIT8zy3xRTX1YD6FZ9nAMzkzPLTHmciigt59PEF7PJXo31CF0IU0RegQ7VSMrz1iOnXwxbIwy3htcMfOA==}
