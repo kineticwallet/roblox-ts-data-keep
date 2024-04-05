@@ -1,6 +1,7 @@
 {
 	"name": "@rbxts/data-keep",
-	"version": "3.1.1-ts.1",
+	"version": "3.1.1-ts.2",
+	"description": "A port of noahrepublic's DataKeep package for the roblox-ts ecosystem. With LemonSignal instead of FastSignal to fix issue #16.",
 	"main": "dist/init.lua",
 	"keywords": ["data", "DataKeep", "session", "lock", "ProfileService"],
 	"author": "kineticwallet",
@@ -9,6 +10,13 @@
 	"files": ["dist", "!**/*.tsbuildinfo"],
 	"publishConfig": {
 		"access": "public"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/kineticwallet/roblox-ts-data-keep"
+	},
+	"bugs": {
+		"url": "https://github.com/kineticwallet/roblox-ts-data-keep/issues"
 	},
 	"packageManager": "pnpm@8.15.6+sha256.01c01eeb990e379b31ef19c03e9d06a14afa5250b82e81303f88721c99ff2e6f",
 	"devDependencies": {
@@ -21,7 +29,6 @@
 		"typescript": "^5.2.2"
 	},
 	"dependencies": {
-		"@rbxts/lemon-signal": "1.10.0-ts.1",
-		"@rbxts/services": "^1.5.4"
+		"@rbxts/lemon-signal": "1.10.0-ts.2"
 	}
 }
