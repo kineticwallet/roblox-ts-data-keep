@@ -8,6 +8,9 @@ dependencies:
   '@rbxts/lemon-signal':
     specifier: 1.10.0-ts.2
     version: 1.10.0-ts.2
+  '@rbxts/promise-forward':
+    specifier: ^1.0.5
+    version: 1.0.5
 
 devDependencies:
   '@biomejs/biome':
@@ -128,6 +131,10 @@ packages:
 
   /@rbxts/lemon-signal@1.10.0-ts.2:
     resolution: {integrity: sha512-3XDq3/o07Ivoeeh2kmaEXmjRtzAddaXISl/guwUlWkdqqY0k+ZDEfCUkzKtFJTvk+O4fD86JhhIuLi/jjJynPA==}
+    dev: false
+
+  /@rbxts/promise-forward@1.0.5:
+    resolution: {integrity: sha512-FrL3pIQDbRD1hKsUNH1Fwwd5jOuqU0vzKQI4Xo96AqzizYc4fb6vDkUg9Iq+IFki6FVlFvPN+YnvkCxGMjJw4Q==}
     dev: false
 
   /@rbxts/types@1.0.767:
