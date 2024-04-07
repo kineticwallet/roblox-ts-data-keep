@@ -34,6 +34,8 @@ declare interface VersionIterator {
 declare interface Keep<T extends object> {
 	GlobalStateProcessor: (updateData: GlobalUpdate, lock: () => boolean, remove: () => boolean) => void;
 
+	Data: T;
+
 	readonly OnGlobalUpdate: Signal<[updateData: object, updateId: number]>;
 	readonly Releasing: Signal<Promise<DataStoreKeyInfo | object>>;
 	readonly Saving: Signal<Promise<DataStoreKeyInfo | object>>;
