@@ -38,6 +38,8 @@ declare interface Keep<T extends object> {
 	readonly Releasing: Signal<Promise<DataStoreKeyInfo | object>>;
 	readonly Saving: Signal<Promise<DataStoreKeyInfo | object>>;
 
+	Data: T
+
 	Save(): Promise<DataStoreKeyInfo>;
 	Overwrite(): Promise<DataStoreKeyInfo>;
 	IsActive(): boolean;
