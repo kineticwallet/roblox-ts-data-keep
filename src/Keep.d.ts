@@ -1,4 +1,4 @@
-import type { Signal } from "@rbxts/lemon-signal/dist/LemonSignal";
+import type { Signal } from "@rbxts/lemon-signal";
 import type { ActiveSession } from "./Store";
 
 declare type MetaData = {

@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@rbxts/lemon-signal':
-    specifier: 1.10.0-ts.2
-    version: 1.10.0-ts.2
+    specifier: 1.10.0-ts.3
+    version: 1.10.0-ts.3
 
 devDependencies:
   '@biomejs/biome':
@@ -126,8 +126,8 @@ packages:
     resolution: {integrity: sha512-2kllUXLlK22OzSi3GmLT+/O70U9oB2iXp4rGFk5FLwc1pqf4W9EsInuJ0t7poLE2XnqnpW/ojff9CUNivI2+lw==}
     dev: true
 
-  /@rbxts/lemon-signal@1.10.0-ts.2:
-    resolution: {integrity: sha512-3XDq3/o07Ivoeeh2kmaEXmjRtzAddaXISl/guwUlWkdqqY0k+ZDEfCUkzKtFJTvk+O4fD86JhhIuLi/jjJynPA==}
+  /@rbxts/lemon-signal@1.10.0-ts.3:
+    resolution: {integrity: sha512-UQ6bcvlsDWV8cZjZQ2PEbqo865exA6UKygpPNQi6k2HDkWiX8ZooEfSE5q9Avk/U26Q2NIwGV7GD+usGqYbkeg==}
     dev: false
 
   /@rbxts/types@1.0.767:
